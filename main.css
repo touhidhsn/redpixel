@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Poppins font for the website texts */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* font weight for heading texts */
+
+* h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 600;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}

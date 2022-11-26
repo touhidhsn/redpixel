@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Red Pixel Ltd</title>
+  </head>
+  <body>
+    <header>
+      <div class="bg-white shadow-lg">
+        <nav
+          class="container m-auto py-5 lg:px-20 lg:flex lg:justify-between lg:items-center"
+        >
+          <div class="flex justify-between items-center">
+            <h1 class="text-4xl text-customred">Red Pixel</h1>
+            <span class="text-3xl cursor-pointer lg:hidden block">
+              <ion-icon name="menu" onclick=" Menu(this)"></ion-icon>
+            </span>
+          </div>
+          <ul
+            class="text-base lg:flex lg:items-center lg:z-auto lg:static absolute bg-white w-full left-0 lg:w-auto lg:py-0 py-4 lg:pl-0 pl-7 opacity-0 lg:opacity-100 top-[-400px] transition-all ease-in duration-500"
+          >
+            <li class="mx-1">
+              <a
+                href="#home"
+                class="px-3 py-1 hover:bg-customred hover:text-white hover:rounded-lg hover:drop-shadow-lg duration-500"
+                >Home</a
+              >
+            </li>
+            <li class="mx-1">
+              <a
+                href="#services"
+                class="px-3 py-1 hover:bg-customred hover:text-white hover:rounded-lg hover:drop-shadow-lg duration-500"
+                >Services</a
+              >
+            </li>
+            <li class="mx-1">
+              <a
+                href="#about-us"
+                class="px-3 py-1 hover:bg-customred hover:text-white hover:rounded-lg hover:drop-shadow-lg duration-500"
+                >About Us</a
+              >
+            </li>
+            <li class="mx-1">
+              <a
+                href="#portfolio"
+                class="px-3 py-1 hover:bg-customred hover:text-white hover:rounded-lg hover:drop-shadow-lg duration-500"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mx-1">
+              <a
+                href="#get-started"
+                class="px-3 py-1 hover:bg-customred hover:text-white hover:rounded-md hover:drop-shadow-lg duration-500"
+                >Get Started</a
+              >
+            </li>
+            <button
+              class="bg-customred rounded-3xl shadow-md text-center text-white px-4 py-2 ml-4 text-base"
+            >
+              Get Quotes
+            </button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="bg-custombackground">
+      <div
+        class="container m-auto md:flex md:justify-between md:px-20 md:py-20 md:items-center"
+      >
+        <div class="w-5/12">
+          <h1 class="text-4xl">
+            Get Creative Aid From <br /><span class="text-customred"
+              >Red Pixel</span
+            >
+          </h1>
+          <p class="text-base heigh font-normal my-4 leading-normal">
+            The easiest and fastest way to hire expert graphic designers to work
+            for your websites, blogs, content, editing, thumbnail designing,
+            social media etc.
+          </p>
+          <div>
+            <button
+              class="bg-white outline outline-customred rounded-2xl shadow-md font-semibold text-center text-customred py-2 px-4 text-base duration-500 hover:bg-customred hover:text-white"
+            >
+              Learn More
+            </button>
+            <button
+              class="bg-white outline outline-customred rounded-2xl shadow-md font-semibold text-center text-customred ml-4 py-2 px-4 text-base duration-500 hover:bg-customred hover:text-white"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
+        <div class="w-7/12">
+          <img
+            class="md:align-right"
+            src="./img/home-papge-banner.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="bg-white container m-auto">
+      <div class="py-10 md:py-20">
+        <h1 class="py-0 text-3xl text-center text-customred">About Us</h1>
+        <p class="text-center mx-auto py-5 w-6/12">
+          We are a promising team pursuing our career in making an easy platform
+          for businesses/organizations to enjoy graphic design-related services.
+          We ensure fast delivery, quality work, and customer service.
+        </p>
+      </div>
+      <div>
+        <div class="md:px-20 flex md:justify-between gap-3 pb-20">
+          <div
+            class="bg-white w-80 h-80 shadow rounded-lg hover:-translate-y-1 hover:scale-110 hover:shadow-xl transition-all ease-in-out duration-500"
+          >
+            <div class="p-10 text-center justify-center">
+              <img class="m-auto" src="./img/document-icon.svg" alt="" />
+              <h1 class="text-xl py-5">Free Documentation</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Quisque nunc consectetur
+                sociis at risus id. Faucibus viverra enim malesuada eleifend
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-white w-80 h-80 shadow rounded-lg hover:-translate-y-1 hover:scale-110 hover:shadow-xl transition-all ease-in-out duration-500"
+          >
+            <div class="p-10 text-center justify-center">
+              <img class="m-auto" src="./img/money-Icon.svg" alt="" />
+              <h1 class="text-xl py-5">30 Days Money Back</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Quisque nunc consectetur
+                sociis at risus id. Faucibus viverra enim malesuada eleifend
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-white w-80 h-80 shadow rounded-lg hover:-translate-y-1 hover:scale-110 hover:shadow-xl transition-all ease-in-out duration-500"
+          >
+            <div class="p-10 text-center justify-center">
+              <img class="m-auto" src="./img/time-icon.svg" alt="" />
+              <h1 class="text-xl py-5">Fast And Speedy</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Quisque nunc consectetur
+                sociis at risus id. Faucibus viverra enim malesuada eleifend
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-custombackground">
+      <div
+        class="container m-auto flex justify-between px-20 py-20 items-center"
+      >
+        <div class="w-5/12">
+          <h1 class="text-4xl py-5">
+            <span class="text-customred">The Services </span>We Provide
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Quisque nunc consectetur
+            sociis at risus id. Faucibus viverra enim malesuada eleifend aliquam
+            non ultrices
+          </p>
+          <div class="py-5">
+            <ul class="items-center flex flex-wrap gap-3">
+              <li
+                class="font-semibold rounded-br-lg outline outline-customred bg-white shadow w-5/12 text-center p-3"
+              >
+                Social Media Posts
+              </li>
+              <li class="rounded-br-lg shadow w-5/12 text-center p-3">
+                Social Media Posts
+              </li>
+              <li class="rounded-br-lg shadow w-5/12 text-center p-3">
+                Social Media Posts
+              </li>
+              <li class="rounded-br-lg shadow w-5/12 text-center p-3">
+                Social Media Posts
+              </li>
+              <li class="rounded-br-lg shadow w-5/12 text-center p-3">
+                Social Media Posts
+              </li>
+              <li class="rounded-br-lg shadow w-5/12 text-center p-3">
+                Social Media Posts
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-7/12">
+          <img src="./img/services-img.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function Menu(e) {
+        let list = document.querySelector("ul");
+        e.name === "menu"
+          ? ((e.name = "close"),
+            list.classList.add("top-[80px]"),
+            list.classList.add("opacity-100"))
+          : ((e.name = "menu"),
+            list.classList.remove("top-[80px]"),
+            list.classList.remove("opacity-100"));
+      }
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
