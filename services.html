@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <!-- Poppins Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Red Pixel Ltd</title>
+  </head>
+  <body>
+    <header>
+      <div class="bg-white shadow-lg">
+        <nav
+          class="container m-auto py-5 px-5 md:px-10 lg:px-20 lg:flex lg:justify-between lg:items-center"
+        >
+          <div class="flex justify-between items-center">
+            <h1 class="text-4xl text-customred">Red Pixel</h1>
+            <!-- Drop down menu for mobile and tab -->
+            <span class="text-3xl cursor-pointer lg:hidden block">
+              <ion-icon name="menu" onclick=" Menu(this)"></ion-icon>
+            </span>
+          </div>
+          <ul
+            class="text-base lg:flex lg:items-center lg:z-auto lg:static absolute bg-white w-full left-0 lg:w-auto lg:py-0 py-4 lg:pl-0 pl-7 opacity-0 lg:opacity-100 top-[-400px] transition-all ease-in duration-500"
+          >
+            <li class="mx-1">
+              <a
+                href="#home"
+                class="px-3 py-1 hover:bg-customred hover:text-white hover:rounded-lg hover:drop-shadow-lg duration-500"
+                >Home</a
+              >
+            </li>
+            <li class="mx-1">
+              <a
+                href="#services"
+                class="px-3 py-1 hover:bg-customred hover:text-white hover:rounded-lg hover:drop-shadow-lg duration-500"
+                >Services</a
+              >
+            </li>
+            <li class="mx-1">
+              <a
+                href="#about-us"
+                class="px-3 py-1 hover:bg-customred hover:text-white hover:rounded-lg hover:drop-shadow-lg duration-500"
+                >About Us</a
+              >
+            </li>
+            <li class="mx-1">
+              <a
+                href="#portfolio"
+                class="px-3 py-1 hover:bg-customred hover:text-white hover:rounded-lg hover:drop-shadow-lg duration-500"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mx-1">
+              <a
+                href="#get-started"
+                class="px-3 py-1 hover:bg-customred hover:text-white hover:rounded-md hover:drop-shadow-lg duration-500"
+                >Get Started</a
+              >
+            </li>
+            <!-- Get Quotes Button -->
+            <button
+              class="bg-customred rounded-3xl shadow-md text-center text-white px-4 py-2 ml-4 text-base hover:bg-white hover:outline hover:outline-red-200 hover:text-customred duration-500"
+            >
+              Get Quotes
+            </button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>
